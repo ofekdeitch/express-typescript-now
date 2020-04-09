@@ -19,6 +19,7 @@ app.get("/users", (req, res) => {
   ]);
 });
 
+
 app.post("/user", (req, res) => {
   const { name, location } = req.body;
 
