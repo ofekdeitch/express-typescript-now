@@ -1,4 +1,4 @@
-const express = require("express");
+import express from "express";
 const app = express();
 
 const port = 5000;
@@ -27,5 +27,6 @@ app.post("/user", (req, res) => {
 
 // Listen on port 5000
 app.listen(port, () => {
+  // tslint:disable-next-line:no-console
   console.log(`Server is booming on port 5000 Visit http://localhost:5000`);
 });
