@@ -4,12 +4,12 @@
   "routes": [
     {
       "src": "/users",
-      "dest": "/dist/index.js",
+      "dest": "index.ts",
       "methods": ["GET"]
     },
     {
       "src": "/user",
-      "dest": "/dist/index.js",
+      "dest": "index.ts",
       "methods": ["POST"]
     }
   ]
